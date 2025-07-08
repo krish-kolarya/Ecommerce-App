@@ -16,37 +16,6 @@ This document describes the security vulnerability disclosure process for the **
 
 We backport critical and high-severity security fixes to the latest two minor versions (`1.1.x` and `1.0.x`) for at least 90 days after release. Older versions are no longer supported—users should upgrade to a supported release as soon as possible.
 
----
-
-## Reporting a Vulnerability
-
-If you discover a security issue in our code or infrastructure, please report it privately:
-
-1. **Email**:
-
-   ```text
-   hoangson091104@gmail.com
-   ```
-
-2. **PGP Key** (fingerprint):
-
-   ```
-   3F8A 2E4B 9D1C 7A5E 0B9F  1C23 4D56 7890 ABCD 1234
-   ```
-
-   Attach your public key or encrypt your report to avoid eavesdropping.
-
-3. **What to include**:
-
-- A clear description of the vulnerability and its impact.
-- Step-by-step reproduction instructions or proof-of-concept code.
-- Affected version(s) and environment details (OS, Node.js version, etc.).
-- Suggested mitigation or fix, if known.
-
-Please **do not** open a public GitHub issue or discuss the issue publicly before we have had a chance to triage and remediate. This helps protect our users and the wider ecosystem.
-
----
-
 ## Response Timeline
 
 | Phase                            | Commitment              |
